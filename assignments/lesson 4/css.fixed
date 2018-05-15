@@ -7,7 +7,7 @@ body {
 
 h1, h2, h3 {
     color: #7c8855;
-    font-weigth:600%;
+    font-weight:600;
 }
 
 h1 {
@@ -35,10 +35,11 @@ footer {
 	background-color: #a3bb49;
 	color: #fff;
 	font-size: .8em;
+    }
 
 /* Class Selectors *******************/
 
 .profile {
     box-shadow: .25em .25em .25em #ccaabb;
-    border: 1px solid #777;}
+    border: 1px solid #777;
 }
