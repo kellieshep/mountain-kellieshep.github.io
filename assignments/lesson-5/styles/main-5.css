@@ -98,7 +98,12 @@ align-content: center;
 
 .highlow {
     text-align: center;
-    margin-left: 300px;
+
+
+}
+.highlow p{
+    padding: 20px;
+
 }
 .conditions {
     text-align: center;
