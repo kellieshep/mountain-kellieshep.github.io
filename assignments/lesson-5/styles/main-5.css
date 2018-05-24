@@ -1,15 +1,12 @@
-/* Delete these CSS comments after reading. */
-/* This main css file contains the default rules and is geared toward the small/phone view */
-
-* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+* { box-sizing: border-box;} 
 
 body { width:600px;
   font-size: 16px;
-  font-family: sans-serif;  /* Declare the base font-family */
+  font-family: sans-serif;  
 }
 
-header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
-  max-width: 100% ; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+header, nav, main, footer {
+  max-width: 100% ; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views*/
 }
 
 header { width:600px;
@@ -114,8 +111,10 @@ article h3 {
     padding-left: 150px;
 }
 .highlow {
-    display:flex;
-    justify-content: space-around;
+    margin-left: 225px;
+    display:inline-flex;
+    
+
 }
 footer {}
 footer .contact {
