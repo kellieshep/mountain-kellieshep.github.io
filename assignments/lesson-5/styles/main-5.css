@@ -1,6 +1,6 @@
 * { box-sizing: border-box;} 
 
-body { width:600px;
+body { width:600;
   font-size: 16px;
   font-family: sans-serif;  
 }
@@ -9,7 +9,7 @@ header, nav, main, footer {
   max-width: 100% ; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views*/
 }
 
-header { width:600px;
+header { width:600;
     
 background-color:#26b2b2;
 }
@@ -33,29 +33,33 @@ header .subheading {
 }
 
 nav {
-    width:100%;
-    list-style-type:none;
-    margin:0 auto;
-    padding:0;
-    align-content:center;
+    width:auto;
+   display: none;
 }
+ 
 nav button {
-   
-}
+    display: contents;
+     width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}  
+
 nav ul {
    background-color: #d00000; 
 }
 nav ul li {
    
    
-    display: inline;
-   float:left;
+    display: inline-flex;
+   
     text-align: center;
 }
 nav ul li a {
-    display: block;
+    display: inline-block;
     padding: 8px;
     background-color: #d00000;
+    width:100%;
      color: white;
 }
 nav ul li.active a {
@@ -114,6 +118,9 @@ article {
 }
 article h3 {
     padding-left: 150px;
+}
+article img {
+    align-content: center;
 }
 .highlow {
     margin-left: 185px;
