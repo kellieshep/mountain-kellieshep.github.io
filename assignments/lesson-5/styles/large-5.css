@@ -5,6 +5,9 @@
     }
     main img {
         width:100%;
+        height: 400px;
+
+        
     } 
     main h2 {
         margin-top: 5ch;
@@ -15,7 +18,7 @@
         width:33%;
         
         margin-right: 45ch;
-        margin-top: -35ch;
+        margin-top: -45ch;
     }
     .current{
        
@@ -24,11 +27,12 @@
     .current h2 {
         text-align: left;
         width:10%;
-        margin-top: 15ch;
-    padding-top: -40ch;
+        margin-top: 0;
+    padding-bottom: -50px;
         padding-right: 0;
         margin-left: 8ch;
-      
+    
+        padding-top: -50px;
     }
     .conditions {
         text-align: center;
@@ -42,8 +46,11 @@
     span .bold {
         font-weight: bold;
     }
+    .forecast{
+        margin-top: 25px;
+    }
     .forecast h3{
-        margin-left: 300ch;
+        margin-left: 50%;
         
     } 
 table {
@@ -59,8 +66,9 @@ table {
        margin-top:-10px; 
     }
     article img {
-        width:37%;
-        
+        width:400px;
+        height: 200px;
+        padding-top: 30px;
         float:right;
       
     }
