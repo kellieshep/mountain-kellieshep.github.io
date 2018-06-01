@@ -32,12 +32,13 @@ header .subheading {
     
 }
 .nav1, .nav2, .nav3 {
-    display: contents;
-     width: 35px;
+    display:contents;
+    width: 35px;
     height: 5px;
     background-color: black;
     margin: 6px 0;
-}  
+    
+}
 
 nav {
     width:auto;

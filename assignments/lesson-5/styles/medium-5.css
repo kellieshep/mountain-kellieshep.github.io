@@ -10,7 +10,7 @@
     align-content:center; 
     display:contents;    
     }
-    nav button { display:none; } 
+    .nav1, .nav2, .nav3 { display:none; } 
     body {
         width:1024;
     }
