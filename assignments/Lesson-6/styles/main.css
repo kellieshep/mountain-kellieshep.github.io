@@ -154,3 +154,8 @@ footer .footer-bar {
     background-color: dimgrey;
     color:aliceblue;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

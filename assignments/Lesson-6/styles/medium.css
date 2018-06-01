@@ -46,20 +46,20 @@
         font-weight: bold;
     }
     .current h2 {
-        margin-top: 10px;
-        margin-left: 10em;
+        padding-top: 20%;
     }
     .highlow {
-        margin-top: -175px;
+        
         
         padding: 1em;
         float:right;
     }
    
     .forecast h3 {
+        display:block;
+        align-content: flex-start;
         margin-left: 300px;
-        margin-top: 100px;
-        align-content: center;
+    
     }
     .forecast {
        display:contents; 
@@ -75,6 +75,8 @@
     article img{
         float:right;
         margin-top: -230px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
   }

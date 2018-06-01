@@ -10,15 +10,15 @@
         
     } 
     main h2 {
-        margin-top: 5ch;
+    display:none;
     }
     .highlow {
         display: block;
         text-align: center;
         width:33%;
         
-        margin-right: 45ch;
-        margin-top: -45ch;
+        margin-right: 30%;
+        margin-top: 10%;
     }
     .current{
        
@@ -37,9 +37,9 @@
     .conditions {
         text-align: center;
         width: 33%;
-        margin-right: 0;
-        margin-left: 85ch;
-        margin-top: -30ch;
+        margin-right: 10%;
+        margin-left: 60%;
+        margin-top: 5%;
        
        
     }
@@ -47,10 +47,11 @@
         font-weight: bold;
     }
     .forecast{
-        margin-top: 25px;
+        margin-top: 15px;
     }
     .forecast h3{
-        margin-left: 50%;
+        margin-top: 15%;
+        margin-left: 600px;
         
     } 
 table {
