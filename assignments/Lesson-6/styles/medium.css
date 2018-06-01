@@ -11,7 +11,7 @@
     display:contents;    
     }
     nav button { display:none; } 
-    nav ul li .hide {
+    nav .hide {
         display:block;
         
     }
