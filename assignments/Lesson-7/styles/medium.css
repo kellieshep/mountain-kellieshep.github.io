@@ -54,7 +54,11 @@
         padding: 1em;
         float:right;
     }
-   
+    /*.rain, .sunshine, .partlycloudy, .lightning, .snow, .typhoon*/ .gallery {
+      grid-template-columns: 1fr 1fr; 
+        grid-gap: 2em;
+    
+    }
     .forecast h3 {
         display:block;
         align-content: flex-start;

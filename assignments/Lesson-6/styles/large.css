@@ -46,6 +46,9 @@
     span .bold {
         font-weight: bold;
     }
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     .forecast{
         margin-top: 15px;
     }
