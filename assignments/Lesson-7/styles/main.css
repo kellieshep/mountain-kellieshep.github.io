@@ -133,11 +133,11 @@ img:hover {box-shadow: 5px 5px 10px gray;}
 .gallery {
    list-style-type:none;
     
-/*    
+    
 }
 .rain, .sunshine, .partlycloudy, .lightning, .snow, .typhoon {
     
-    */
+
       background-color: lightgrey;
     border: 1px solid black;
     list-style-type:none;
