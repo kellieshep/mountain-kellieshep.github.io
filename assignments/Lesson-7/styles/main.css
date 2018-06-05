@@ -132,7 +132,7 @@ img:hover {box-shadow: 5px 5px 10px gray;}
 /*gallery*/
 .gallery {
    
-    
+    list-style-type:none;
     
 }
 .rain, .sunshine, .partlycloudy, .lightning, .snow, .typhoon {
