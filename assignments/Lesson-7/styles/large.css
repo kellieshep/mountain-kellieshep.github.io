@@ -49,7 +49,7 @@
     /*.rain, .sunshine, .partlycloudy, .lightning, .snow, .typhoon*/.gallery {
       grid-template-columns: 1fr 1fr 1fr; 
         grid-template-rows: auto;
-        grid-gap: 2em;  
+        grid-gap: 5em;  
     }
     .forecast{
         margin-top: 15px;
