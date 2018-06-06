@@ -47,8 +47,9 @@
         font-weight: bold;
     }
     /*.rain, .sunshine, .partlycloudy, .lightning, .snow, .typhoon*/.gallery {
+        display:grid;
       grid-template-columns: 1fr 1fr 1fr; 
-        grid-template-rows: auto;
+        grid-template-rows: 1fr 1fr;
         grid-gap: 5em;  
     }
     .forecast{
