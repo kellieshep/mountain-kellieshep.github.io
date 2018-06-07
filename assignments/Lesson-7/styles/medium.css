@@ -54,10 +54,21 @@
         
     }
     /*.rain, .sunshine, .partlycloudy, .lightning, .snow, .typhoon*/ .gallery {
-      grid-template-columns: 1fr 1fr; 
+      grid-template-columns: repeat(auto-fill,minmax(150px,4fr));
+        grid-template-columns: 1fr 1fr; 
         grid-gap: 2em;
-    
+    grid-template-areas:
+        "picture1 picture2"
+        "picture3 picture4"
+"picture5 picture6" ;
+
     }
+    .rain{grid-area: picture1;}
+    .sunshine {grid-area:picture2;}
+    .partlycloudy{grid-area:picture3;}
+    .lightning{grid-area:picture4;}
+    .snow{grid-area:picture5;}
+    .typhoon {grid-area:picture6;}
     .forecast h3 {
         display:block;
         align-content: flex-start;
