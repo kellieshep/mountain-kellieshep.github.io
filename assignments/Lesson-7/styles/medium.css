@@ -35,40 +35,45 @@
     main h2 {
     
     }
-    .current img {
+    .current{
+        display:flex;
+        width:100%;
+        
+    }
+    .sunpic, .sunny {
         
     
-        width:25%;
+        width:50%;
         
     }
     span .bold {
         font-weight: bold;
     }
-    .current h2 {
-        padding-top: 20%;
-    }
+    
     .highlow {
         
         
         padding: 1em;
         
     }
-    /*.rain, .sunshine, .partlycloudy, .lightning, .snow, .typhoon*/ .gallery {
-      grid-template-columns: repeat(auto-fill,minmax(150px,4fr));
-        grid-template-columns: 1fr 1fr; 
-        grid-gap: 2em;
+     .gallery {
+
+        grid-template-columns: 40% 40%; 
+        grid-gap:5em;
     grid-template-areas:
         "picture1 picture2"
         "picture3 picture4"
-"picture5 picture6" ;
+        "picture5 picture6" ;
 
     }
-    .rain{grid-area: picture1;}
-    .sunshine {grid-area:picture2;}
-    .partlycloudy{grid-area:picture3;}
-    .lightning{grid-area:picture4;}
-    .snow{grid-area:picture5;}
-    .typhoon {grid-area:picture6;}
+    .rain, .rainpic {grid-area: picture1;
+     width:100%; }
+    .sunshine, .sunshinepic {grid-area:picture2;
+    width:100%;}
+    .partlycloudy, .partlycloudypic {grid-area:picture3;width:100%;}
+    .lightning, .lightningpic {grid-area:picture4;width:100%;}
+    .snow, .snowpic {grid-area:picture5;width:100%;}
+    .typhoon, .typhoonpic {grid-area:picture6;width:100%;}
     .forecast h3 {
         display:block;
         align-content: flex-start;
@@ -83,14 +88,12 @@
         margin-top: 50px;
         padding-left: 50px;
     }
-    article p{
-        width:50%;
+    .flexart{
+        flex-wrap:nowrap;
     }
-    article img{
-        
-        margin-top: -230px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    
+town-article, .townimg {
+    width:40%;
+}
 
   }

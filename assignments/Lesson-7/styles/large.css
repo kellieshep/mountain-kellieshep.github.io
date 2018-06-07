@@ -10,47 +10,52 @@
         
     } 
     main h2 {
-    display:none;
+    display:;
+    }
+    .weather-summary {
+        display:flex;
+        flex-flow:row wrap;
+        text-align:center;
+    }
+    .sunpic, .sunny {
+        width:100%;
+    }
+    .current h2{
+        padding-bottom: 0;
+        margin:auto;
     }
     .highlow {
         display: block;
         text-align: center;
         width:33%;
         
-        margin-right: 30%;
-        margin-top: 10%;
+        
     }
     .current{
-       
-                
+       width:30%;
+        flex-wrap:wrap;
+        align-content:center;
     }
-    .current h2 {
-        text-align: left;
-        width:10%;
-        margin-top: 0;
-    padding-bottom: -50px;
-        padding-right: 0;
-        margin-left: 8ch;
     
-        padding-top: -50px;
-    }
     .conditions {
         text-align: center;
         width: 33%;
-        margin-right: 10%;
-        margin-left: 60%;
-        margin-top: 5%;
-       
+    margin-top: auto;
+    
        
     }
     span .bold {
         font-weight: bold;
     }
-    /*.rain, .sunshine, .partlycloudy, .lightning, .snow, .typhoon*/.gallery {
+    .gallery img:hover {box-shadow: 5px 5px 10px gray;}
+    .gallery {
         display:grid;
       grid-template-columns: 1fr 1fr 1fr; 
         grid-template-rows: 1fr 1fr;
-        grid-gap: 5em;  
+        grid-gap: 5em; 
+        grid-template-areas: 
+            "picture1 picture2 picture3"
+            "picture4 picture5 picture6"
     }
     .forecast{
         margin-top: 15px;
@@ -72,11 +77,5 @@ table {
     article h3 {
        margin-top:-10px; 
     }
-    article img {
-        width:400px;
-        height: 200px;
-        padding-top: 30px;
-        
-      
-    }
+    
 }
