@@ -1,6 +1,6 @@
 * { box-sizing: border-box;} 
 
-body { width:600;
+body { width:600px;
   font-size: 16px;
   font-family:'Open Sans', sans-serif;  
 }
@@ -24,7 +24,7 @@ header img {
     width:9em;
     margin-left: 40px;
     padding-right: 0;
-    padding-bottom: o; 
+    
 
 }
 header .subheading {
