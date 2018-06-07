@@ -20,7 +20,7 @@
     }
     main img {
     
-        display:-webkit-flex;
+        display: flex;
         
         
     }
