@@ -137,7 +137,7 @@ img:hover {box-shadow: 5px 5px 10px gray;}
 .gallery {
    
     list-style-type:none;
-    
+    display:grid;
 }
 .rain, .sunshine, .partlycloudy, .lightning, .snow, .typhoon {
     
@@ -147,7 +147,7 @@ list-style-type:none;
     list-style-type:none;
     margin:0 auto;
     padding:0;
-    display:grid;
+   
     border: 1px solid black;
 } 
 /* article with the picture*/
