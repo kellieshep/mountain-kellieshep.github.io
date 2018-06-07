@@ -128,6 +128,10 @@ align-content: center;
 .conditions {
     text-align: center;
 }
+section, div {margin: 1rem;}
+.form {background-color:#bbb; padding: 1rem; border:1px solid #444;}
+div {background-color:#eee; padding: 1rem; border:1px solid #444;}
+#aNum {border:1px solid #bbeedd; background-color:#aaffcc; text-align:center;}
 img:hover {box-shadow: 5px 5px 10px gray;}
 /*gallery*/
 .gallery {
@@ -143,7 +147,7 @@ list-style-type:none;
     list-style-type:none;
     margin:0 auto;
     padding:0;
-    
+    display:grid;
     border: 1px solid black;
 } 
 /* article with the picture*/

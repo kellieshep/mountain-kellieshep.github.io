@@ -14,7 +14,7 @@
     </head>
 <body>
 <script src="scripts/scripts.js"></script>
-     <script src="scripts/windchill.js"></script>
+     <script src="scripts/windchill.js" type="text/javascript"></script>
   <header>
       
       <img src="images/cloudiness-1265205.svg" width="100" alt="sun and cloud">
@@ -68,15 +68,11 @@
         <p>Wind Speed:<strong> 5 mpg SW</strong></p>  
       </div>           
     </section>
-      <section class="windchill">
-      <section>
-	<div class="form">
-       
-        <button type="button" onclick="windChill()">Wind chill is</button><span id="windchill">54</span>
-        
-	</div>
-</section>
+      <section class="windChill">
+	<button type="button" onclick="windChill()">Wind chill is</button>
+<div id="outputDiv"></div>
       </section>
+          <section>
       <div class="gallery">
 	<ul>
         <li class="rain"><a href="#"><img class="rainpic" src="images/rain-791893_640.jpg" alt="rain"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus rutrum lacus, consequat condimentum velit tempor tristique. Fusce cursus blandit pulvinar.</p></a></li>
@@ -136,10 +132,10 @@
     
   <footer class="clearfix">
     <section class="contact">
-      Weather You Know It Contact<br>
+     <h5>< Weather You Know It Contact<br>
       999.999.9999<br>
       123 Main St.<br> Anytown, US 99999<br>
-      Google Map
+         Google Map</h5>
     </section>
     <section class="footer-bar">&copy;2018 | All Rights Reserved | Weather You Know It | <span id="currentdate"></span>
     </section>

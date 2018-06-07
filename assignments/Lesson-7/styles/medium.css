@@ -19,8 +19,7 @@
         width:1024;
     }
     main img {
-        width:50%;
-        float:left;
+    
         display:-webkit-flex;
         
         
@@ -37,7 +36,7 @@
     
     }
     .current img {
-        float:left;
+        
     
         width:25%;
         
@@ -52,7 +51,7 @@
         
         
         padding: 1em;
-        float:right;
+        
     }
     /*.rain, .sunshine, .partlycloudy, .lightning, .snow, .typhoon*/ .gallery {
       grid-template-columns: 1fr 1fr; 
@@ -77,7 +76,7 @@
         width:50%;
     }
     article img{
-        float:right;
+        
         margin-top: -230px;
         margin-left: auto;
         margin-right: auto;
