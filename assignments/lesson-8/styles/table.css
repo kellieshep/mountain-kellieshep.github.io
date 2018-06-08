@@ -1,0 +1,34 @@
+body {
+     font-family: 'Ubuntu', sans-serif;
+}
+
+tr:nth-child(odd){
+    background-color:#e7f0ed; 
+    
+}
+tr:nth-child(even){
+  background-color:   #e7ffed;
+}
+table, th , tr, td {
+    border: 1px solid grey;
+     border-collapse: collapse;
+    text-align:center;
+}
+tr:first-child, tfoot {
+    color:black;
+    background-color: #7fb9c2 ;
+}
+#goal {
+    color:white;
+    background-color: #628ca6;
+}
+table {
+   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);  
+}
+tr:nth-child(2) {
+    background-color:#628ca6; 
+    color:white;}
+tfoot {
+        font-size:.75em;
+    margin:2%;
+    }
