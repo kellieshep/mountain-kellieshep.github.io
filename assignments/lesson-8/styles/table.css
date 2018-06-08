@@ -13,11 +13,13 @@ table, th , tr, td {
     border: 1px solid grey;
      border-collapse: collapse;
     text-align:center;
+    padding: 5%;
 }
 tr:first-child, tfoot {
     color:black;
     background-color: #7fb9c2 ;
 }
+
 #goal {
     color:white;
     background-color: #628ca6;
@@ -30,5 +32,5 @@ tr:nth-child(2) {
     color:white;}
 tfoot {
         font-size:.75em;
-    margin:2%;
+
     }
