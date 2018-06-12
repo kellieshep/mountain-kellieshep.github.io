@@ -187,6 +187,7 @@ article img {
 }
 form label.top {
     display: block;
+    margin: 2%;
 }
 
 /*Footer */
