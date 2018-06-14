@@ -200,10 +200,10 @@ form label.top {
     display:block;
 }
 form label.top input:required {
-    border-bottom-left-radius: red;
+    border: 3px solid crimson;
 }
 form label.top input:required:valid {
-    border-bottom-left-radius: green;
+    border: 3px solid green;
 }
 /*Thank you note*/
 .thanks {
