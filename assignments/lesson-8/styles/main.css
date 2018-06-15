@@ -94,23 +94,22 @@ main figure img {width:100% }
 .current img {
     
 display: flex;
-    flex-direction: row;
+   
 
 }
 .current {
     display: flex;
-    flex-direction: row;
+    
     align-content: center;
-    padding-right: 150px;
-    border: 1px solid white;
+    
+  
     
 }
 
 .current h2 { 
 align-content: center;
-    margin-top: 100px;
-    margin-left: 100px;
-    padding-bottom: 50px;
+  
+    margin: auto;
     
 }
 /*Hi Low temperatures*/
@@ -118,26 +117,29 @@ align-content: center;
 .highlow {
     text-align: center;
 display: flex;
-    flex-direction: row;
+   
 width: 45%;
     margin:auto;
+    padding: 0;
 }
 .highlow p{
     padding: 20px;
-
+    margin: auto;
+    
 }
 
 /* wind speed and precipitation*/
 .conditions {
     text-align: center;
     display: flex;
-    flex-direction: row;
+    padding: 0;
     width: 50%;
     margin:auto;
     margin-top: 1%;
 }
 .conditions p{
     padding: 2%;
+   
 }
 section, div {margin: 1rem;}
 .form {background-color:#bbb; padding: 1rem; border:1px solid #444;}
@@ -169,13 +171,13 @@ div {background-color:#eee; padding: 1rem; border:1px solid #444;}
     font-family: 'Roboto Slab', serif;
 }
 article h3 {
-    padding-left: 150px;
+    text-align: center;
 }
 .flexart {
     display:flex;
 flex-wrap:wrap;
     width:100%;
-    
+    margin: auto;
 }
 .town-article, .townimg {
     width:100%;
