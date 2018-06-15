@@ -1,6 +1,6 @@
 * { box-sizing: border-box;} 
 
-body { width:600;
+body { max-width: 100%;
   font-size: 16px;
   font-family:'Open Sans', sans-serif;  
 }
@@ -9,7 +9,7 @@ header, nav, main, footer {
   max-width: 100% ; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views*/
 }
 /*header*/
-header { width:600;
+header {
     
 background-color:#26b2b2;
 }
@@ -33,10 +33,6 @@ header .subheading {
 }
 
 /*Navigation*/
-nav {
-    width: 100%;
-   
-}
  
 nav button {
     margin: .2em 2%;
