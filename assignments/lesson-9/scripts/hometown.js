@@ -8,7 +8,7 @@ request.send();
         request.onload = function() {
   var towns = request.response;
   
-  showtowns(towns);
+  show(towns);
 }
    
 
