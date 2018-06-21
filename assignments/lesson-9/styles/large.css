@@ -10,7 +10,10 @@
         
     } 
     main h2 {
-    
+    display:grid;
+    }
+    main article{
+        
     }
     .weather-summary {
         display:flex;
