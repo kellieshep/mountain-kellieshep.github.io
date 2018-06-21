@@ -8,14 +8,14 @@ request.send();
         request.onload = function() {
   var towns = request.response;
   
-  show(towns);
+  showTowns(towns);
 }
    
 
  
 
 function towns(jsonObj) {
-  var towns = jsonObj['towns'];
+  var showTowns = jsonObj['towns'];
       
   for (var i = 0; i < towns.length; i++) {
        if (i==2) {
@@ -28,9 +28,10 @@ function towns(jsonObj) {
     var myList = document.createElement('ul');
 
     myH2.textContent = towns[i].name;
-    myPara1.textContent = 'motto: ' + heroes[i].secretIdentity;
-    myPara2.textContent = 'yearFounded: ' + heroes[i].age;
-    myPara3.textContent = 'currentPopulation:';
+    myPara1.textContent = 'motto: ' + towns[i].motto;
+    myPara2.textContent = 'yearFounded: ' + towns[i].yearfounded;
+    myPara3.textContent = 'currentPopulation:'+towns[i].currentPopulation;
+    myPara4.textContent = 'averageRainfall'+towns[i].averageRainfall;  
         
     var events = events[i].events;
     for (var j = 0; j < events.length; j++) {
@@ -43,6 +44,7 @@ function towns(jsonObj) {
     myArticle.appendChild(myPara1);
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
+    myArticle.appendChild(myPara4);  
     myArticle.appendChild(myList);
 
     section.appendChild(myArticle);
