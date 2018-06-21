@@ -79,16 +79,38 @@ color:darkgray;
 
 /*Main- franklin image */
 main {
+    display:grid;
+    width:100%;
+color:darkslategrey;
 
+}
+main article {
+    border: 1px solid grey;
+    margin:2%;
+    padding:3%;
+    text-align: center;
+    
+    
+    
 }
 main h2 {
   text-align: center;
+    color: white;
+    border: 1px solid grey;
+    background-color: #d00000;
+}
+main p {
+    
 }
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img {width:100% }
 /*forecast 10 day */ 
 .forecast {
     display:none;
+}
+#weather_icon {
+    width:20%;
+    height: auto;
 }
 /* curent conditions sun image sunny*/
 .current img {

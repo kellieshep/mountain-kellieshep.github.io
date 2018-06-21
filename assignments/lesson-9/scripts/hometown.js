@@ -14,8 +14,8 @@ request.send();
 
  
 
-function towns(jsonObj) {
-  var showTowns = jsonObj['towns'];
+function showTowns(jsonObj) {
+  var towns = jsonObj['towns'];
       
   for (var i = 0; i < towns.length; i++) {
        if (i==2) {
@@ -25,15 +25,16 @@ function towns(jsonObj) {
     var myPara1 = document.createElement('p');
     var myPara2 = document.createElement('p');
     var myPara3 = document.createElement('p');
+    var myPara4 = document.createElement('p');
     var myList = document.createElement('ul');
 
     myH2.textContent = towns[i].name;
-    myPara1.textContent = 'motto: ' + towns[i].motto;
-    myPara2.textContent = 'yearFounded: ' + towns[i].yearfounded;
-    myPara3.textContent = 'currentPopulation:'+towns[i].currentPopulation;
-    myPara4.textContent = 'averageRainfall'+towns[i].averageRainfall;  
+    myPara1.textContent = 'Motto: ' + towns[i].motto;
+    myPara2.textContent = 'Year Founded: ' + towns[i].yearfounded;
+    myPara3.textContent = 'Current Population: '+towns[i].currentPopulation;
+    myPara4.textContent = 'Average Rainfall: '+towns[i].averageRainfall;  
         
-    var events = events[i].events;
+    var events = towns[i].events;
     for (var j = 0; j < events.length; j++) {
       var listItem = document.createElement('li');
       listItem.textContent = events[j];
