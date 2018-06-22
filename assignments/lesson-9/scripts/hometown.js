@@ -18,6 +18,7 @@ function showTowns(jsonObj) {
   var towns = jsonObj['towns'];
       
   for (var i = 0; i < towns.length; i++) {
+     
        if (i==2) {
                 continue;}
     var myArticle = document.createElement('article');
