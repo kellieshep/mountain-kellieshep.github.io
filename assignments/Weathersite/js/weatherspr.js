@@ -1,5 +1,5 @@
 var weatherRequest = new XMLHttpRequest();
-weatherRequest.open('GET','//api.openweathermap.org/data/2.5/weather?q=springville,us&appid=786c31c2219f70a1504435aa6e57c6bc&units=imperial', true );
+weatherRequest.open('GET','//api.openweathermap.org/data/2.5/weather?q=springfield,us&appid=786c31c2219f70a1504435aa6e57c6bc&units=imperial', true );
         
 weatherRequest.send();
 weatherRequest.onload = function (){
