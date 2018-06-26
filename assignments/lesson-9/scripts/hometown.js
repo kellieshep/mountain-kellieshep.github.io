@@ -19,7 +19,7 @@ function showTowns(jsonObj) {
       
   for (var i = 0; i < towns.length; i++) {
      
-       if (i==2) {
+       if (i===2) {
                 continue;}
     var myArticle = document.createElement('article');
     var myH2 = document.createElement('h2');
