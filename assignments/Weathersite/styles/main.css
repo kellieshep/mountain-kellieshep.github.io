@@ -243,7 +243,9 @@ form label.top input:required:valid {
 margin: 2%;
 }
 /*Footer */
-footer {}
+footer {
+    font-size: 1.25em;
+}
 footer .contact {
     background-color:#ffba08;
     color:aliceblue;
@@ -251,6 +253,7 @@ footer .contact {
     text-align: center;
 }
 footer .footer-bar {
+    font-size: 1em;
     background-color: dimgrey;
     color:aliceblue;
 }
