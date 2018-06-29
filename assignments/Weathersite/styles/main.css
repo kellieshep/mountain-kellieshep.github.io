@@ -70,7 +70,7 @@ nav ul li a {
     width:100%;
      color: white;
 }
-nav ul li:active a {
+nav ul li.active a {
    background-color: darkgoldenrod;
 }
 nav ul li a:hover { 
