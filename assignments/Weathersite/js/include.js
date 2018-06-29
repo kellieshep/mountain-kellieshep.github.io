@@ -19,12 +19,13 @@ function include() {
           allElements[i].removeAttribute('includefile');
           include();
         }
+      }
           xhttp.open('GET', 'include/' + file, true); // matching file names in includes folder
         xhttp.send();
         return;
       }
     }
   }
-}
+
 
 include();  // initial function call
