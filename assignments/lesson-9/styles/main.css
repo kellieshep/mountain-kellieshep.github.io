@@ -71,7 +71,7 @@ nav ul li a {
      color: white;
 }
 nav ul li.active a {
-    color:darkgoldenrod;
+   background-color:darkgoldenrod;
 }
 nav ul li a:hover { 
 color:darkgray;
