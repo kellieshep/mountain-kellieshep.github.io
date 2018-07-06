@@ -262,6 +262,10 @@ body {
 	height:30px;
 	background:rgba(0, 167, 255, 0.86);
 }
+.lessons {
+    display: flex;
+    
+}
 
 .footer h5 {
 	position: absolute;
