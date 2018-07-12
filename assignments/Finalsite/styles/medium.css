@@ -27,6 +27,7 @@
     }
     .adventures {
          font-size: 1.2em;
+        width: 100%;
     }
      .grid {
         display:flex;
@@ -38,7 +39,10 @@
         font-family: fantasy;
     }
     .logo {
-        width:100%;
-        align-items: center;
-        margin-left: 20em;
+        margin: 0;
+       width: 30%;
+        padding-left: 3em;
+        padding-top: 3em;
+        border: 5px solid #0B3954;
     }
+   
