@@ -3,7 +3,7 @@
   <head>
   <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-      <title>CIT 230 Assignment Portal | Kellie Shepherd | BYU-Idaho</title>
+      <title>CIT 230 Final website-Kellie Shepherd</title>
       <meta name="description" content=" Final website|The Mountain Spoke website">
        <link rel="stylesheet" href="styles/mormalize.css">
       <link rel="stylesheet" href="styles/main.css">
@@ -14,14 +14,48 @@
   </head>
   <body>
     <header>
-        <h1>The Mountain Spoke</h1>
+        <h1>The Mountain <span id="spoke">Spoke</span></h1>
         
     </header>
       <nav>
+          <ul>
+              <li><a href="index.htlm">Home |</a></li>
+              <li><a href="#">Adventures |</a></li>
+              <li><a href="#">Services |</a></li>
+              <li><a href="#">Sales |</a></li>
+              <li><a href="#">Events |</a></li>
+              <li><a href="#">Contact</a></li>
+              
+          </ul>
       </nav>
+      
+    
       <main>
+          <img src="images/cycling-828646__340.jpg">
+          <section class="sales"></section>
+          <h2>Welcome to the Premier Mountain Biking Website!<br>
+         Where only the best will do<br>
+              Without Mountain High Prices!<br>
+              <span id="Sales"><a href="">Check out our sale prices for top rated mountain bikes!</a></span>
+              <section id="events">
+              <img src="images/bike-1541037__340.jpg">
+                  <h2>We've got some amazing events<br> coming up in July and August!</h2>
+              <button type="button">Upcoming Events</button>
+              </section>
+              <section class="adventures">
+              <h2>Awesome guided Adventures for every skill level <br>are available, click here for adventures and schedules!</h2>
+                  <button type="button">Adventures and scheduling</button>
+                  <img src="images/Mountain%20Spoke%20Logo.jpg">
+              
+              </section>
+              
+              
+          </h2>
       </main>
       <footer>
+          <h3>
+          &copy;2018 The Mountain Spoke-<span id="address">3950 Valley Commons Drive Bozeman, MT 59715</span>
+          </h3>
       </footer>
     </body>
 </html>
