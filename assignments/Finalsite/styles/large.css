@@ -1,0 +1,36 @@
+@media only screen and (min-width: 64em ) {
+
+    main img {
+        width:100%;
+        height: 400px;
+
+        
+    } 
+    header{
+        font-size: 1.3em;
+    }
+    .sales {
+        font-size: 1.5em;
+    }
+    .events{
+        font-size:1.5em;
+        
+    }
+    .logo{
+        width:30%;
+       margin-top: 0;
+        margin-bottom: 0em;
+        margin-left: 0;
+    }
+    .adventures {
+        font-size:1.5em;
+        padding-top: 2em;
+        padding-bottom: 1em;
+     width: 70%;
+    }
+    .grid {
+        display:flex;
+    }
+    footer {
+        font-size:1.5em;
+    }

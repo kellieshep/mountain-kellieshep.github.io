@@ -1,0 +1,41 @@
+@media only screen and (min-width: 37.5em) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+     nav button { display:none; }
+    nav {
+     font-size: 1.4em;  
+    list-style-type:none;
+    margin:0 auto;
+    padding:0;
+    align-content:center; 
+    display:contents;    
+    }
+    nav button { display:none; } 
+    nav .hide {
+        display:block;
+        
+    }
+    .events {
+        font-size: 1.2em;
+    }
+    .events button{
+        margin-left: 5em;
+        margin-top: 1em;
+        padding:1em;
+        font-family: fantasy;
+         font-size: .65em;
+    }
+    .adventures {
+         font-size: 1.2em;
+    }
+    .adventures button {
+        padding: 1em;
+        
+        font-size: 1em;
+        font-family: fantasy;
+    }
+    .logo {
+        width:100%;
+        align-items: center;
+        margin-left: 20em;
+    }
