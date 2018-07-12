@@ -18,8 +18,10 @@
         
     </header>
       <nav>
-          <ul>
-              <li><a href="index.htlm">Home |</a></li>
+           <button onclick="toggleMenu()">&#9776;</button>
+      
+    <ul id="primaryNav" class="hide mainmenu">
+    	<li class="active"><a href="index.htlm">Home |</a></li>
               <li><a href="#">Adventures |</a></li>
               <li><a href="#">Services |</a></li>
               <li><a href="#">Sales |</a></li>
@@ -32,11 +34,12 @@
     
       <main>
           <img src="images/cycling-828646__340.jpg" alt="handlebars" id="top">
-          <section class="sales"></section>
+          <section class="sales">
           <h2>Welcome to the Premier Mountain Biking Website!<br>
          Where only the best will do<br>
               Without Mountain High Prices!<br>
-              <span id="Sales"><a href="">Check out our sale prices for top rated mountain bikes!</a></span>
+              <span id="Sales"><a href="">Check out our sale prices for top rated mountain bikes!</a></span> </h2>
+              </section>
               <section id="events">
               <img src="images/bike-1541037__340.jpg" alt="One top of the world biker">
                   <h2>We've got some amazing events<br> coming up in July and August!</h2>
@@ -45,17 +48,17 @@
               <section class="adventures">
               <h2>Awesome guided Adventures for every skill level <br>are available, click here for adventures and schedules!</h2>
                   <button type="button">Adventures and scheduling</button>
+          </section>
+          <section class="logo">
                   <img src="images/Mountain%20Spoke%20Logo.jpg" alt="logo">
               
-              </section>
-              
-              
-          </h2>
+               </section> 
       </main>
       <footer>
           <h3>
           &copy;2018 The Mountain Spoke-<span id="address">3950 Valley Commons Drive Bozeman, MT 59715</span>
           </h3>
       </footer>
+      <script src="script/scripts.js"></script>
     </body>
 </html>

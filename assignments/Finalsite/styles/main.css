@@ -16,7 +16,7 @@ background-color:#0B3954;
 }
 header h1 {
     font: 1.5em;
-    padding:20px 20px 0px 5px;
+    padding: 0px 20px 0px 20px;
     text-align: center;
 }
 header h1 span #spoke {
@@ -31,7 +31,7 @@ nav {
 nav button {
     margin: .2em 2%;
     font-size: 1.6rem;
-    color: aliceblue;
+    color: black;
 
     border: none;
     background-color:#E0ff4f;
@@ -60,20 +60,37 @@ nav ul li a {
      color: black;
 }
 nav ul li.active a {
-    color:#bfd7ea;
+    color:#ff6663;
 }
 nav ul li a:hover { 
-color:darkgray;
+color: darkslategrey;
 }
 #top {
     width: 100%;
     height: 5%;
 }
+button {
+   background-color: #e0ff4f; 
+}
 .sales {
-    display: flex;
+    display: center;
+    text-align: center;
     border: 3px solid #0B3954;
-    
+    font-size: .75em;
+    padding:5px 5px 5px 5px;
+    margin: 20px;
 }
 .events {
-    display:flex;
+    display: inline-flex;
+    
+}
+.events img{
+ width:; 
+}
+#logo {
+    width:30%;
+    
+}
+footer{
+    background-color: #ff6663;
 }
