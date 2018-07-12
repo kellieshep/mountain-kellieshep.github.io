@@ -31,21 +31,21 @@
       
     
       <main>
-          <img src="images/cycling-828646__340.jpg">
+          <img src="images/cycling-828646__340.jpg" alt="handlebars">
           <section class="sales"></section>
           <h2>Welcome to the Premier Mountain Biking Website!<br>
          Where only the best will do<br>
               Without Mountain High Prices!<br>
               <span id="Sales"><a href="">Check out our sale prices for top rated mountain bikes!</a></span>
               <section id="events">
-              <img src="images/bike-1541037__340.jpg">
+              <img src="images/bike-1541037__340.jpg" alt="One top of the world biker">
                   <h2>We've got some amazing events<br> coming up in July and August!</h2>
               <button type="button">Upcoming Events</button>
               </section>
               <section class="adventures">
               <h2>Awesome guided Adventures for every skill level <br>are available, click here for adventures and schedules!</h2>
                   <button type="button">Adventures and scheduling</button>
-                  <img src="images/Mountain%20Spoke%20Logo.jpg">
+                  <img src="images/Mountain%20Spoke%20Logo.jpg" alt="logo">
               
               </section>
               
