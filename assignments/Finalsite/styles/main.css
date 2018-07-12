@@ -122,11 +122,16 @@ footer{
 }
 .bikesales img{
     width: 75%;
-    align-items: center;
+    margin: 13%;
 }
 .bikesales h3{
     text-align: center;
+    background-color:#e0ff4f; 
 }
-.biksales section {
+.bikesales section {
     border: 2px solid black;
+    margin: 2em;
+}
+.bikesales h5{
+    padding:1.5em;
 }
