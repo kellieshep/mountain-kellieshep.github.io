@@ -13,6 +13,19 @@
    
       <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Permanent+Marker|Righteous" rel="stylesheet">
   </head>
+    <script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
+	<script>
+	$(function(){
+		// All jQuery code goes here
+        $('.bikesales > li').hover(function(){
+            $(this).addClass('openSesame');
+            
+        }, function(){
+            $(this).removeClass('openSesame');
+        }
+                                   )
+	})
+    </script>
   <body>
     <header>
         <h1>The Mountain <span id="spoke">Spoke</span></h1>
@@ -37,25 +50,34 @@
           <img src="images/mtb-1169960__340.jpg" alt="mountain bikers" class="top">
           <h1 id="lead">High Quality Mountain Bikes <br>
           To get you through the Ups and Downs and everything Inbetween! </h1>
-          <section class="bikesales">
-          <section class="bike1">
-              <img src="images/mountain-bike-1204868__340.jpg" alt="bike by wall">
-              <h3>Genesis 120<br>Genesis Brand Mountain Bike<br>$450.98</h3>
-              <h5>This Genesis mountain bike has a high performance seat and a great pair of shocks to give you a smooth comfortable ride even down the roughest mountain passes. With high proformance tires that will withstand what ever you can throw at them. High quality steele construction with triple strength weilds that give this bike the performance you need for even the most extreme in the sport of mountain biking. </h5>
+          <ul class="bikesales">
+          <li class="bike1">
+              <section class="item">
+              <img src="images/mountain-bike-1204868__340.jpg" alt="bike by wall" class="pic">
+              <h3 class="title">Genesis 120<br>Genesis Brand Mountain Bike<br>$450.98</h3>
+              <h5 class="info">This Genesis mountain bike has a high performance seat and a great pair of shocks to give you a smooth comfortable ride even down the roughest mountain passes. With high proformance tires that will withstand what ever you can throw at them. High quality steele construction with triple strength weilds that give this bike the performance you need for even the most extreme in the sport of mountain biking. </h5>
               </section>
-          <section class="bike2">
-              <img src="images/mountain-bike-95266__340.jpg" alt="snow bike">
-              <h3>Wheeler 7800<br>Wheeler Brand Mountain Bike<br>$625 </h3>
-              <h5>This Wheeler Brand mountain bike a high performance seat and a great pair of shocks to give you a smooth comfortable ride even down the roughest mountain passes. With high proformance tires that will withstand what ever you can throw at them. High quality steele construction with triple strength weilds that give this bike the performance you need for even the most extreme in the sport of mountain biking. </h5>
-              </section>
-              <section class="bike3">
-              <img src="images/bike-975813__340.jpg" alt="bike on top of mountain">
-                  <h3>BBF 225<br>BBF Brand Mountain Bike<br>$525</h3>
-                  <h5>This BBF Brand mountain bike has a super support construction made especially for those that love flying down the mountain at top speed. It has a extra support under the main support for more confidence as you hit the big bumps. It comes with the light already on the front for the times you stay out past the sun. Extra shocks are found throughout the bike construction.</h5>
-              </section>
+              <button type="button" id="button1">Beginner Bike Choice</button>
+              </li>
+          <li class="bike2">
+             <section class="item">
+              <img src="images/mountain-bike-95266__340.jpg" alt="snow bike" class="pic">
+              <h3 class="title">Wheeler 7800<br>Wheeler Brand Mountain Bike<br>$625 </h3>
+              <h5 class="info">This Wheeler Brand mountain bike a high performance seat and a great pair of shocks to give you a smooth comfortable ride even down the roughest mountain passes. With high proformance tires that will withstand what ever you can throw at them. High quality steele construction with triple strength weilds that give this bike the performance you need for even the most extreme in the sport of mountain biking. </h5>
+             </section>
+              <button type="button" id="button2">Intermediate Bike Choice</button>
+              </li>
+              <li class="bike3">
+                  <section class="item">
+              <img src="images/bike-975813__340.jpg" alt="bike on top of mountain" class="pic">
+                  <h3 class="title">BBF 225<br>BBF Brand Mountain Bike<br>$725</h3>
+                  <h5 class="info">This BBF Brand mountain bike has a super support construction made especially for those that love flying down the mountain at top speed. It has a extra support under the main support for more confidence as you hit the big bumps. It comes with the light already on the front for the times you stay out past the sun. Extra shocks are found throughout the bike construction.</h5>
+                      </section>
+                  <button type="button" id="button3">  Advanced Bike Choice  </button>
+              </li>
           
           
-          </section>
+          </ul>
       </main>
       <footer>
       
