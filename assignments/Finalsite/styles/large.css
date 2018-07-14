@@ -17,7 +17,7 @@
         
     }
     .logo{
-        width:30%;
+        width:100%;
        margin-top: 0;
         margin-bottom: 0em;
         margin-left: 0;
@@ -27,11 +27,9 @@
         font-size:1.5em;
         padding-top: 2em;
         padding-bottom: 1em;
-     width: 70%;
+     width: 100%;
     }
-    .grid {
-       
-    }
+   
     .bikesales img{
     
     width: 70%;

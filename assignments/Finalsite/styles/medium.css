@@ -29,8 +29,8 @@
          font-size: 1.2em;
         width: 100%;
     }
-     .grid {
-        display:flex;
+     .group {
+        display:inline-flex;
     }
     .adventures button {
         padding: 1em;
