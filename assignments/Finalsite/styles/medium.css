@@ -17,6 +17,7 @@
     }
     .events {
         font-size: 1.2em;
+        width:100%
     }
     .events button{
         margin-left: 5em;
