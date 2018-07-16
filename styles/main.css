@@ -120,6 +120,11 @@ footer{
 #lead {
     text-align: center;
 }
+#sale {
+    background-color: crimson;
+    color:white;
+    text-align: center;
+}
 .bikesales > li {
 	position: relative;
 	
@@ -163,4 +168,8 @@ li.openSesame {
 #button1, #button3 {
     
     padding: 1em;
+}
+.buyNow {
+    padding: 1em;
+    margin: 2em;
 }
