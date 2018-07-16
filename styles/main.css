@@ -173,3 +173,31 @@ li.openSesame {
     padding: 1em;
     margin: 2em;
 }
+/*Sevices Page*/
+#service {
+    
+    text-align: center;
+}
+thead{
+    background-color: #e0ff4f;
+    font-size: 1.25em;
+}
+
+tr {
+    border: 1px solid black;
+}
+tr:nth-child(odd){
+    background-color:white; 
+    
+}
+tr:nth-child(even){
+  background-color: lightgray;
+}
+table, tr, td {
+    border: 1px solid grey;
+     border-collapse: collapse;
+    text-align:center;
+    padding: 2em;
+    margin: 10%;
+    margin-top: 0;
+}
