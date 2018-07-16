@@ -174,13 +174,16 @@ li.openSesame {
     margin: 2em;
 }
 /*Sevices Page*/
-#service {
-    
+.service {
+     
     text-align: center;
+    color:#0B3954 ; 
 }
-thead{
+thead tr:first-child{
     background-color: #e0ff4f;
     font-size: 1.25em;
+    color:#0B3954 ; 
+        font-family:  "Permanent+Marker",fantasy; 
 }
 
 tr {
@@ -200,4 +203,5 @@ table, tr, td {
     padding: 2em;
     margin: 10%;
     margin-top: 0;
+    margin-bottom: 0;
 }
