@@ -22,12 +22,18 @@
         margin-bottom: 0em;
         margin-left: 0;
         border: none;
+        margin-right:10%;
     }
     .adventhome {
         font-size:1.5em;
         padding-top: 2em;
         padding-bottom: 1em;
      width: 100%;
+       
+    }
+    .group {
+        width:100%;
+        margin-right:10%;
     }
    
     .bikesales img{

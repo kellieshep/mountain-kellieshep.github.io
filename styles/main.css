@@ -107,6 +107,7 @@ button {
 .adventhome button {
      font-family:  "Permanent+Marker",fantasy;
     padding: 1em;
+    font-size: 1em;
 }
 .logo {
     width:50%;
@@ -208,7 +209,7 @@ table, tr, td {
 /* Adventure Page*/
 .header {
     background-color:  #e0ff4f;
-    font-family:"Libre+Baskerville", fantasy;
+    font-family:"Libre+Baskerville";
     color:black;
     text-align: center;
     padding: 1em;
@@ -221,9 +222,12 @@ table, tr, td {
     font-size: 1.25em;
    
 }
+.adventure1 img, .adventure2 img, .adventure3 img {
+    width:80%;
+}
 .adventure1 button, .adventure2 button, .adventure3 button{
     font-size: 1.25em;
-    font-family: "Permanent+Marker",cursive;
+    font-family: "Permanent+Marker",fantasy;
     padding: 1em;
 }
 .addons {

@@ -27,26 +27,36 @@
         font-family: "Permanent+Marker", fantasy;
          font-size: .65em;
     }
-    .adventhome {
-        margin-left:10%;
-         font-size: 1.2em;
-        width: 100%;
-    }
+  
      .group {
+         
+         width:100%;
         display:inline-flex;
     }
     .adventhome button {
-        padding: 1em;
-        
-        
+        padding: .75em;
+     
         font-family: fantasy;
     }
-    .logo {
-        margin: 0;
-       width: 30%;
-        padding-left: 3em;
-        padding-top: 3em;
-        border: 5px solid #0B3954;
+    
+     .logo{
+        width:100%;
+       margin-top: 20%;
+        margin-bottom: 0em;
+        margin-left: 20%;
+        border: 1px solid blue;
+     
+    }
+    .adventhome {
+        font-size:1.5em;
+        padding-top: 2em;
+        padding-bottom: 1em;
+     width: 100%;
+       
+    }
+    .group {
+        width:100%;
+        margin-right:10%;
     }
     .elist li {
         font-size: 1.5em;
