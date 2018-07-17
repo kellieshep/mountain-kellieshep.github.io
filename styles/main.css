@@ -176,12 +176,13 @@ li.openSesame {
 }
 /*Sevices Page*/
 .service {
-     width:80%;
+     width:100%;
     text-align: center;
     color:#0B3954 ; 
 }
 table {
-    width:100%;
+    width:80%;
+    margin:10%;
 }
 thead tr:first-child{
     background-color: #e0ff4f;
