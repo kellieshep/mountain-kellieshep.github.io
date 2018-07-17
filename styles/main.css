@@ -99,12 +99,12 @@ button {
     height:10%;
     margin: 2em 3em 2em 2em;
 }
-.adventures {
+.adventhome {
     margin-left: 2em;
     font-size: .85em;
     text-align: center;
 }
-.adventures button {
+.adventhome button {
      font-family:  "Permanent+Marker",fantasy;
     padding: 1em;
 }
@@ -223,7 +223,7 @@ table, tr, td {
 }
 .adventure1 button, .adventure2 button, .adventure3 button{
     font-size: 1.25em;
-    font-family: "Permanent+Marker",fantasy;
+    font-family: "Permanent+Marker",cursive;
     padding: 1em;
 }
 .addons {
@@ -250,6 +250,31 @@ table, tr, td {
     background-color: dodgerblue;
 } 
 .adventure3 h1{
+    background-color: black;
+    color:white;
+}
+/*Events Page*/
+#map {
+    margin-left:10%;
+    margin-right: 10%;
+    width: 75%;
+    border: 2px solid black;
+}
+.epage {
+    text-align: center;
+}
+.elist li {
+  margin: 2em;
+   list-style-type: none;
+    font-weight: bold;
+    display:grid;
+    animation-delay: 
+}
+.rtop {
+    display:flex;
+    margin: 1.5em;
+}
+.elist li:nth-child(even){
     background-color: black;
     color:white;
 }
