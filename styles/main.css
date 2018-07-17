@@ -205,3 +205,51 @@ table, tr, td {
     margin-top: 0;
     margin-bottom: 0;
 }
+/* Adventure Page*/
+.header {
+    background-color:  #e0ff4f;
+    font-family:"Libre+Baskerville", fantasy;
+    color:black;
+    text-align: center;
+    padding: 1em;
+}
+.adventure1, .adventure2, .adventure3 {
+    Border: 2px solid grey;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+    font-size: 1.25em;
+   
+}
+.adventure1 button, .adventure2 button, .adventure3 button{
+    font-size: 1.25em;
+    font-family: "Permanent+Marker",fantasy;
+    padding: 1em;
+}
+.addons {
+   text-align: center;
+     
+    color: #0B3954;
+    font-size:1.5em;
+}
+.addons li {
+    text-align: left;
+    background-color:#e0ff4f;
+    color: black;
+    font-size: 1.5em;
+    margin: 1em;
+    padding:1em;
+}
+.adventures h3 {
+    background-color: #ff6663;
+} 
+.adventure1 h1{
+    background-color: lightgreen;
+}
+.adventure2 h1{
+    background-color: dodgerblue;
+} 
+.adventure3 h1{
+    background-color: black;
+    color:white;
+}

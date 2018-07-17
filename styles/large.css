@@ -33,7 +33,7 @@
     .bikesales img{
     
     width: 70%;
-    margin-left: 12em;
+    margin-left: 5em;
 }
     footer {
         font-size:1.5em;
@@ -41,7 +41,7 @@
    
       .bikesales > li {
 	position: relative;
-	
+	font-size: 2em;
 	
 	left: -95%;
 	
@@ -54,7 +54,13 @@
     li.openSesame {
 	left:0px;
 }
-    .bikesales {
+    .buyNow {
        
-        
+       font-size: 1em; 
+    }
+    .adventures{
+   display: inline-flex;
+}
+    .adventures button {
+        margin-bottom: 0;
     }
