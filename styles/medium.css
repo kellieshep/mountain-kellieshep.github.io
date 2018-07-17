@@ -44,8 +44,8 @@
        margin-top: 20%;
         margin-bottom: 0em;
         margin-left: 20%;
-        border: 1px solid blue;
-     
+       
+     padding: none;
     }
     .adventhome {
         font-size:1.5em;
