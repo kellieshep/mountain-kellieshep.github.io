@@ -180,6 +180,9 @@ li.openSesame {
     text-align: center;
     color:#0B3954 ; 
 }
+table {
+    width:100%;
+}
 thead tr:first-child{
     background-color: #e0ff4f;
     font-size: 1.25em;
