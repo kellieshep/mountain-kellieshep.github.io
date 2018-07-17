@@ -16,6 +16,7 @@
         
     }
     .events {
+        margin-left: 10%;
         font-size: 1.2em;
         width:100%
     }
@@ -26,14 +27,15 @@
         font-family: "Permanent+Marker", fantasy;
          font-size: .65em;
     }
-    .adventures {
+    .adventhome {
+        margin-left:10%;
          font-size: 1.2em;
         width: 100%;
     }
      .group {
         display:inline-flex;
     }
-    .adventures button {
+    .adventhome button {
         padding: 1em;
         
         
