@@ -31,61 +31,52 @@
               
           </ul>
       </nav>
+        
       <main>
       <img src="images/servicestop.jpg" alt="service page top" class="top">
-          <section class="service">
-          <h1>We have services to help you keep on the trails and getting the most out of your bikes.</h1>
-          <h2>Bike Tune-Ups and assembly</h2>
-          </section>
-          <table class="table">
-	<tbody>
-		<thead id="title">
-			<td><strong>Service</strong></td>
-			<td><strong>Price</strong></td>
-			<td><strong>Description</strong></td>
-		</thead>
-		<tr>
-			<td>Quick Tune</td>
-			<td>$80</td>
-			<td>Adjust shifting, brakes, headset, bottom bracket and hubs, true wheels (lateral and dish), bolt/torque check "safety check", inflate tires, lube chain, clean bike (drivetrain cleaning not included).</td>
-		</tr>
-		<tr>
-			<td>Standard Tune</td>
-			<td>$120</td>
-			<td>Adjust shifting, brakes, headset, bottom bracket and hubs, true wheel (lateral and dish), bolt/torque check "safety check,” inflate tires, clean bike, lube chain and grease parts as needed, full drivetrain cleaning.</td>
-		</tr>
-		<tr>
-			<td>Deluxe Tune Road</td>
-			<td>$200</td>
-			<td>Full bike disassemble and full reassemble with grease and lube where needed, full drivetrain cleaning, wheels trued (lateral, dish and round), install new cables and housing, bolt/torque check "safety check," inflate tires, repacking of all applicable bearings, new parts get free install, suspension work and hydraulic brake bleeds may be additional labor.</td>
-		</tr>
-		<tr>
-			<td>Deluxe Tune Mountain</td>
-			<td>$350</td>
-			<td>Full bike disassemble and full reassemble with grease and lube as needed. Full drive train cleaning. True wheels (lateral, dish and round). Install new cables and housing. Bolt/torque check, “safety check.” Inflate tires. Repack of all applicable bearings. Bleed of hydraulic disc brakes.&nbsp; New parts get free install. Suspension work may be additional labor.</td>
-		</tr>
-		<tr>
-			<td>Drivetrain Cleaning</td>
-			<td>$60</td>
-			<td>Remove drivetrain for major cleaning, reinstall and adjust drivetrain, lube and grease as needed, new cables and housing are extra (but a good time for this to happen).</td>
-		</tr>
-		<tr>
-			<td>Out of the Box Build</td>
-			<td>$80-150</td>
-			<td>Full build from the box</td>
-		</tr>
-		<tr>
-			<td>Pro Build</td>
-			<td>$200</td>
-			<td>Full suspension: $200</td>
-		</tr>
-		<tr>
-			<td>Box Bike</td>
-			<td>$80</td>
-			<td>Box bike for shipping</td>
-		</tr>
-	</tbody>
-</table>
+        <h1>We have services to help you keep on the trails and getting the most out of your bikes.</h1>
+          <h2>Bike Tune-Ups</h2>
+          <p id='demo'>
+          
+          </p>
+  
+      <script>
+          var text =' {
+  "services" : [
+  {
+    "name": "Quick Tune",
+    "price": "$80",
+    "description": "Adjust shifting, brakes, headset, bottom bracket and hubs, true wheels (lateral and dish), bolt/torque check safety check, inflate tires, lube chain, clean bike (drivetrain cleaning not included).",
+   
+  },
+  {
+    "name": "Standard Tune",
+    "price": "$120",
+    "description": "Adjust shifting, brakes, headset, bottom bracket and hubs, true wheel (lateral and dish), bolt/torque check safety check, inflate tires, clean bike, lube chain and grease parts as needed, full drivetrain cleaning.",
+   
+  },
+
+  {
+    "name": "Deluxe Tune Road",
+    "price": "$200",
+    "description": "Full bike disassemble and full reassemble with grease and lube where needed, full drivetrain cleaning, wheels trued (lateral, dish and round), install new cables and housing, bolt/torque check safety check, inflate tires, repacking of all applicable bearings, new parts get free install, suspension work and hydraulic brake bleeds may be additional labor.",
+   
+  },
+
+  {
+    "name": "Deluxe Tune Mountain",
+    "price": "$350",
+    "description": "Full bike disassemble and full reassemble with grease and lube as needed. Full drive train cleaning. True wheels (lateral, dish and round). Install new cables and housing. Bolt/torque check, “safety check.” Inflate tires. Repack of all applicable bearings. Bleed of hydraulic disc brakes.&nbsp; New parts get free install. Suspension work may be additional labor.",
+   
+  }
+ ]
+}';
+obj = JSON.parse(text);
+    var services = document.getElementById('demo').innerHTML=obj.sevices.name[0].name+" "+obj.services[0].price+"<br> "+ obj.services[0].description;
+    </script>
+        
+        
+		
           <h2 class="service">Call us for an appointment today! 1-800-FIX-BIKE</h2>
       </main>
       <footer>
