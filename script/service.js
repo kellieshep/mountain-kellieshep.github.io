@@ -1,33 +1,54 @@
-var text =' {
-  "services" : [
-  {
-    "name": "Quick Tune",
-    "price": "$80",
-    "description": "Adjust shifting, brakes, headset, bottom bracket and hubs, true wheels (lateral and dish), bolt/torque check safety check, inflate tires, lube chain, clean bike (drivetrain cleaning not included).",
+  
+    var section = document.querySelector('section');
+    var requestURL = 'https://kellieshep.github.io/jsondata/';
+        var request = new XMLHttpRequest();
+        request.open('GET', requestURL);
+        request.responseType = 'json';
+request.send();
+        request.onload = function() {
+  var towns = request.response;
+  
+  showTowns(towns);
+}
    
-  },
-  {
-    "name": "Standard Tune",
-    "price": "$120",
-    "description": "Adjust shifting, brakes, headset, bottom bracket and hubs, true wheel (lateral and dish), bolt/torque check safety check, inflate tires, clean bike, lube chain and grease parts as needed, full drivetrain cleaning.",
-   
-  },
 
-  {
-    "name": "Deluxe Tune Road",
-    "price": "$200",
-    "description": "Full bike disassemble and full reassemble with grease and lube where needed, full drivetrain cleaning, wheels trued (lateral, dish and round), install new cables and housing, bolt/torque check safety check, inflate tires, repacking of all applicable bearings, new parts get free install, suspension work and hydraulic brake bleeds may be additional labor.",
-   
-  },
+ 
 
-  {
-    "name": "Deluxe Tune Mountain",
-    "price": "$350",
-    "description": "Full bike disassemble and full reassemble with grease and lube as needed. Full drive train cleaning. True wheels (lateral, dish and round). Install new cables and housing. Bolt/torque check, “safety check.” Inflate tires. Repack of all applicable bearings. Bleed of hydraulic disc brakes.&nbsp; New parts get free install. Suspension work may be additional labor.",
-   
+function showTowns(jsonObj) {
+  var towns = jsonObj['towns'];
+      
+  for (var i = 0; i < towns.length; i++) {
+     
+       if (i==2) {
+                continue;}
+    var myArticle = document.createElement('article');
+    var myH2 = document.createElement('h2');
+    var myPara1 = document.createElement('p');
+    var myPara2 = document.createElement('p');
+    var myPara3 = document.createElement('p');
+    var myPara4 = document.createElement('p');
+    var myList = document.createElement('ul');
+
+    myH2.textContent = towns[i].name;
+    myPara1.textContent = 'Motto: ' + towns[i].motto;
+    myPara2.textContent = 'Year Founded: ' + towns[i].yearFounded;
+    myPara3.textContent = 'Current Population: '+towns[i].currentPopulation;
+    myPara4.textContent = 'Average Rainfall: '+towns[i].averageRainfall;  
+        
+    var events = towns[i].events;
+    for (var j = 0; j < events.length; j++) {
+      var listItem = document.createElement('li');
+      listItem.textContent = events[j];
+      myList.appendChild(listItem);
+    }
+
+    myArticle.appendChild(myH2);
+    myArticle.appendChild(myPara1);
+    myArticle.appendChild(myPara2);
+    myArticle.appendChild(myPara3);
+    myArticle.appendChild(myPara4);  
+    myArticle.appendChild(myList);
+
+    section.appendChild(myArticle);
   }
- ]
-}';
-obj = JSON.parse(text);
-    var services = document.getElementById('demo').innerHTML=obj.sevices.name[0].name+" "+obj.services[0].price+"<br> "+ obj.services[0].description;
-       
+}

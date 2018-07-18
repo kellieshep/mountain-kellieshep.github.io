@@ -286,6 +286,11 @@ table, tr, td {
     background-color: black;
     color:white;
 }
+#details {
+    text-align: center;
+    background-color: #e0ff4f;
+    padding: 1%;
+}
 /*contact Us*/
 #contact {
     margin:10%;
