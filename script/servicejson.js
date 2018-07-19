@@ -27,7 +27,7 @@
               "true wheel (lateral and dish)", 
               "bolt/torque check safety check",
               "inflate tires",
-              " clean bike",
+              "clean bike",
               "lube chain and grease parts as needed",
               "full drivetrain cleaning."
              ]
@@ -56,7 +56,7 @@
       "whenTo": "Do when you want to be ready for the mountain trails",
     "events": ["Full bike disassemble and full reassemble with grease and lube as needed.",
                "Full drive train cleaning.",
-               " True wheels (lateral, dish and round).",
+               "True wheels (lateral, dish and round).",
                "Install new cables and housing.",
                "Bolt/torque check",
                "“safety check.”",

@@ -5,7 +5,7 @@
         request.open('GET', requestURL);
         request.responseType = 'json';
 request.send();
-        request.onload = function() {
+        request.onload = function(){
   var services = request.response;
   
   showservices(services);
@@ -14,10 +14,10 @@ request.send();
 
  
 
-function showservices(jsonObj) {
+function showservices(jsonObj){
   var services = jsonObj['services'];
       
-  for (var i = 0; i < services.length; i++) {
+  for (var i = 0; i < services.length; i++){
      
        if (i==2) {
                 continue;}
@@ -36,7 +36,7 @@ function showservices(jsonObj) {
    
         
     var events = services[i].events;
-    for (var j = 0; j < events.length; j++) {
+    for (var j = 0; j < events.length; j++){
       var listItem = document.createElement('li');
       listItem.textContent = events[j];
       myList.appendChild(listItem);
