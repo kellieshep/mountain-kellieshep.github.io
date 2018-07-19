@@ -116,6 +116,13 @@ margin-left: 35%;
 }
 footer{
     background-color: #ff6663;
+   text-align: center;
+    padding: .5em;
+}
+.gmlink {
+    color:navy;
+    padding-bottom: .5em;
+    text-align: center;
 }
 /*sales page*/
 #lead {
@@ -175,40 +182,13 @@ li.openSesame {
     margin: 2em;
 }
 /*Sevices Page*/
-.service {
-     width:100%;
-    text-align: center;
-    color:#0B3954 ; 
-}
-table {
-    width:80%;
-    margin:10%;
-}
-thead tr:first-child{
-    background-color: #e0ff4f;
-    font-size: 1.25em;
-    color:#0B3954 ; 
-        font-family:  "Permanent+Marker",fantasy; 
-}
-
-tr {
-    border: 1px solid black;
-}
-tr:nth-child(odd){
-    background-color:white; 
-    
-}
-tr:nth-child(even){
-  background-color: lightgray;
-}
-table, tr, td {
-    border: 1px solid grey;
-     border-collapse: collapse;
-    text-align:center;
+.serviceList {
+    font:"Libre+Baskerville" ;
+    display:grid;
+    margin-left: 30%;
+    margin-right: 30%;
     padding: 2em;
-    margin: 10%;
-    margin-top: 0;
-    margin-bottom: 0;
+    border: 2px solid gray;
 }
 /* Adventure Page*/
 .header {
