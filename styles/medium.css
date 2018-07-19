@@ -64,4 +64,8 @@
         font-size:
             1.25em;
         }
+    .serviceList {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
     }
