@@ -185,8 +185,7 @@ li.openSesame {
 .serviceList {
     font:"Libre+Baskerville" ;
     display:grid;
-    margin-left: 10%;
-    margin-right: 10%;
+   
     padding: 2em;
     border: 2px solid gray;
 }
