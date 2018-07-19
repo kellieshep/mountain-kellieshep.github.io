@@ -17,8 +17,8 @@
     }
     .events {
         margin-left: 10%;
-        font-size: 1.2em;
-        width:100%
+        font-size: 1em;
+        width:80%
     }
     .events button{
         margin-left: 5em;
@@ -31,7 +31,7 @@
      .group {
          
          width:100%;
-        display:inline-flex;
+        
     }
     .adventhome button {
         padding: .75em;
@@ -41,25 +41,23 @@
     
      .logo{
         width:100%;
-       margin-top: 20%;
-        margin-bottom: 0em;
-        margin-left: 20%;
+      margin-left: 45%;
        
     
     }
     .adventhome {
-        font-size:1.5em;
+        font-size:1.1em;
         padding-top: 2em;
         padding-bottom: 1em;
-     width: 100%;
-       
+     width: 80%;
+       margin-left: 10%;
     }
     .group {
         width:100%;
         margin-right:10%;
     }
     .elist li {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     
     footer {
