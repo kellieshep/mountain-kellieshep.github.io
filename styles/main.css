@@ -85,7 +85,7 @@ button {
 }
 .events {
     display: inline-flex;
-    width: 100%;
+    width: 90%;
     font-size: .85em;
 }
 .events button{
@@ -100,7 +100,7 @@ button {
     margin: 2em 3em 2em 2em;
 }
 .adventhome {
-    margin-left: 2em;
+   width:90%;
     font-size: .85em;
     text-align: center;
 }
@@ -276,4 +276,10 @@ li.openSesame {
 }
 #contact img{
     margin:0;
+}
+#gmap {
+    width: 90%;
+}
+#contactForm{
+    width:90%;
 }
