@@ -1,23 +1,23 @@
   
     var section = document.querySelector('section');
-    var requestURL = 'https://kellieshep.github.io/jsondata/';
+    var requestURL = 'https://kellieshep.github.io/mountain-kellieshep.github.io/script/servicejson.js';
         var request = new XMLHttpRequest();
         request.open('GET', requestURL);
         request.responseType = 'json';
 request.send();
         request.onload = function() {
-  var towns = request.response;
+  var services = request.response;
   
-  showTowns(towns);
+  showservices(services);
 }
    
 
  
 
-function showTowns(jsonObj) {
-  var towns = jsonObj['towns'];
+function showservices(jsonObj) {
+  var services = jsonObj['services'];
       
-  for (var i = 0; i < towns.length; i++) {
+  for (var i = 0; i < services.length; i++) {
      
        if (i==2) {
                 continue;}
@@ -26,16 +26,16 @@ function showTowns(jsonObj) {
     var myPara1 = document.createElement('p');
     var myPara2 = document.createElement('p');
     var myPara3 = document.createElement('p');
-    var myPara4 = document.createElement('p');
+   
     var myList = document.createElement('ul');
 
-    myH2.textContent = towns[i].name;
-    myPara1.textContent = 'Motto: ' + towns[i].motto;
-    myPara2.textContent = 'Year Founded: ' + towns[i].yearFounded;
-    myPara3.textContent = 'Current Population: '+towns[i].currentPopulation;
-    myPara4.textContent = 'Average Rainfall: '+towns[i].averageRainfall;  
+    myH2.textContent = services[i].name;
+    myPara1.textContent = 'Price: ' + services[i].price;
+    myPara2.textContent = 'When: ' + services[i].whenTo;
+    myPara3.textContent = 'Services Performed: ';
+   
         
-    var events = towns[i].events;
+    var events = services[i].events;
     for (var j = 0; j < events.length; j++) {
       var listItem = document.createElement('li');
       listItem.textContent = events[j];
@@ -46,7 +46,7 @@ function showTowns(jsonObj) {
     myArticle.appendChild(myPara1);
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
-    myArticle.appendChild(myPara4);  
+    
     myArticle.appendChild(myList);
 
     section.appendChild(myArticle);
