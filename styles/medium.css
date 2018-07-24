@@ -69,7 +69,9 @@
 	     -o-transition: left 500ms;
 	        transition: left 500ms;
 }
-   
+     li.openSesame {
+	left:0px;
+}
 
     .elist li {
         font-size: 1.2em;
