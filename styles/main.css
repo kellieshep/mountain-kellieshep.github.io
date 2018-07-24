@@ -288,9 +288,9 @@ li.openSesame {
 #contact img{
     margin:0;
 }
-#gmap {
-    width: 90%;
+#gmap div{
+    width: 80%;
 }
 #contactForm{
-    width:90%;
+    width:80%;
 }
