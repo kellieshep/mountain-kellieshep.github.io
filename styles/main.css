@@ -181,6 +181,9 @@ li.openSesame {
     
     padding: 1em;
 }
+#button1, #button2, #button3{
+    font-size: 1em;
+}
 .buyNow {
     padding: 1em;
     margin: 2em;
