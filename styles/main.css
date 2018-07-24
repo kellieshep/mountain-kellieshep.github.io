@@ -272,6 +272,9 @@ li.openSesame {
     display:flex;
     margin: 1.5em;
 }
+.elist{
+    display:contents;
+}
 .elist li:nth-child(even){
     background-color: black;
     color:white;
