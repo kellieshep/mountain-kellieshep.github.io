@@ -19,11 +19,12 @@ header h1 {
     padding: 0px 20px 0px 20px;
     text-align: center;
     padding: .65em;
- font-family: "Righteous";
+ 
 
 }
 #spoke {
-    font-family: "Permanent+Marker", fantasy;
+  
+    font-family: 'Permanent Marker', cursive;
 }
 /*Navigation*/
 nav {
@@ -50,7 +51,7 @@ nav .hide {
 }
 nav ul li {
    
-   font-family: "Permanent+Marker", fantasy;
+   font-family: 'Permanent Marker', cursive;
     display: inline-flex;
    
     text-align: center;
@@ -92,7 +93,9 @@ button {
     padding: 1em;
     margin-left: 4em;
     margin-top:1em;
-     font-family:  "Permanent+Marker",fantasy;
+   font-family: 'Permanent Marker', cursive; 
+      
+
 }
 .events img{
  width: 30%; 
@@ -105,7 +108,7 @@ button {
     text-align: center;
 }
 .adventhome button {
-     font-family:  "Permanent+Marker",fantasy;
+     font-family: 'Permanent Marker', cursive;
     padding: 1em;
     font-size: 1em;
 }
@@ -210,7 +213,7 @@ li.openSesame {
 }
 .adventure1 button, .adventure2 button, .adventure3 button{
     font-size: 1.25em;
-    font-family: "Permanent+Marker",fantasy;
+    font-family: 'Permanent Marker', cursive;
     padding: 1em;
 }
 .addons {
