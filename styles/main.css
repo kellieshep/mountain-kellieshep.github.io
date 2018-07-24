@@ -10,7 +10,7 @@ header, nav, main, footer {
 }
 /*header*/
 header {
-    font-family:"Libre+Baskerville", fantasy;
+    font-family: 'Libre Baskerville', serif;
  color: white;   
 background-color:#0B3954;
 }
@@ -187,7 +187,7 @@ li.openSesame {
 }
 /*Sevices Page*/
 .serviceList {
-    font:"Libre+Baskerville" ;
+    font-family: 'Libre Baskerville', serif;
     display:grid;
    
     padding: 2em;
@@ -196,7 +196,7 @@ li.openSesame {
 /* Adventure Page*/
 .header {
     background-color:  #e0ff4f;
-    font-family:"Libre+Baskerville";
+    font-family: 'Libre Baskerville', serif;
     color:black;
     text-align: center;
     padding: 1em;
