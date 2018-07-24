@@ -24,6 +24,9 @@
         border: none;
         margin-right:10%;
     }
+    .logo img{
+        width:100%;
+    }
     .adventhome {
         font-size:1.5em;
         padding-top: 2em;
