@@ -114,7 +114,8 @@ button {
 }
 .logo {
     
-width:inherit;
+width:25%;
+    height:25%;
     margin-top: 1em;
 }
 footer{
