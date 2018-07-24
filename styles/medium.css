@@ -33,6 +33,7 @@
          width:100%;
         
     }
+    
     .adventhome button {
         padding: .75em;
      
@@ -56,6 +57,20 @@
         width:100%;
         margin-right:10%;
     }
+     .bikesales > li {
+	position: relative;
+	
+	
+	left: -87%;
+	
+	-webkit-transition: left 500ms;
+	   -moz-transition: left 500ms;
+	    -ms-transition: left 500ms;
+	     -o-transition: left 500ms;
+	        transition: left 500ms;
+}
+   
+
     .elist li {
         font-size: 1.2em;
     }
