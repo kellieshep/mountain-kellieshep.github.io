@@ -183,6 +183,7 @@ li.openSesame {
 }
 #button1, #button2, #button3{
     font-size: 1em;
+     font-family: 'Permanent Marker', cursive;
 }
 .buyNow {
     padding: 1em;
